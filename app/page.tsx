@@ -1,8 +1,13 @@
+import Principal from "./principal"
+
 
 export default function Home() {
   return (
-    <div>
-      <h1>WEB UTFPR</h1>
-    </div>
+    <>
+      <h1 className="text-center">WEB UTFPR 2</h1>     
+      <Principal/>
+      <h2>Rodape</h2>     
+    </>
+    
   );
 }
